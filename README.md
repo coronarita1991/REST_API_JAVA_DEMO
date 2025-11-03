@@ -1,9 +1,3 @@
-아래는 작성해드린 내용을 그대로 README.md 파일 형식으로 정리한 것입니다.
-복사 후 프로젝트 루트에 README.md로 저장하세요.
-
-⸻
-
-
 # KTCU Demo API  
 Java 17 + Spring Boot 3 + Gradle
 
