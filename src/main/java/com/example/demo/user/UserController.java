@@ -21,8 +21,8 @@ public class UserController {
 	}
 	
 	@GetMapping("/users/{id}")
-	public ResponseEntity<UserResponse> findById(@PathVariable Long id) {
-	return ResponseEntity.ok(userService.get(id));
+	public ResponseEntity<UserResponse> findById(@PathVariable("id") Long id) {
+	    return ResponseEntity.ok(userService.get(id));
 	}
 	
 	@PostMapping("/login")
@@ -32,3 +32,4 @@ public class UserController {
 	return ResponseEntity.status(401).body("LOGIN_FAIL");
 	}
 }
+
